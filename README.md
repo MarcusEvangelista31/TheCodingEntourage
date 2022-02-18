@@ -45,11 +45,6 @@ Functional Requirements
 -Counter for how many icons they have gotten correct in a row.
 -Game over screen displays when they lose, play again option is provided, and an exit button that takes the user back to the main menu. 
 -Shows highest five scores reached after each round is finished.
-a
-b
-c
-d
-
 
 
 

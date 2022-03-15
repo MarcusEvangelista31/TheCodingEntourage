@@ -36,14 +36,15 @@ public class Game {
         boolean correctButton = gameRound.checkCorrect(name, orderNumber);
         if (correctButton){
 
-            if (orderNumber == gameRound.getOrderLength()){
+            if (orderNumber == gameRound.getOrderLength() -1){
                 gameRound.nextLevel();
                 orderNumber =0;
             }else{
                 orderNumber++;
             }
         }else{
-            gameOver = true;
+            newGameRound();
+            System.out.println("Wrong One");
         }
 
     }

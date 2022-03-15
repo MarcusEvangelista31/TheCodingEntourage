@@ -6,4 +6,153 @@
     android:layout_height="match_parent"
     tools:context=".GameOver">
 
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/hscore1"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/hscore6"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/hscore2"
+        app:layout_constraintTop_toBottomOf="@+id/name1" />
+
+    <TextView
+        android:id="@+id/hscore7"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/hscore3"
+        app:layout_constraintTop_toBottomOf="@+id/hscore6" />
+
+    <TextView
+        android:id="@+id/hscore8"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/hscore4"
+        app:layout_constraintTop_toBottomOf="@+id/hscore7" />
+
+    <TextView
+        android:id="@+id/hscore9"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/hscore5"
+        app:layout_constraintTop_toBottomOf="@+id/hscore8" />
+
+    <TextView
+        android:id="@+id/hscore3"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/hscore2"
+        tools:layout_editor_absoluteX="95dp" />
+
+    <TextView
+        android:id="@+id/hscore4"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/hscore3"
+        tools:layout_editor_absoluteX="95dp" />
+
+    <TextView
+        android:id="@+id/hscore5"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/hscore4"
+        tools:layout_editor_absoluteX="95dp" />
+
+    <TextView
+        android:id="@+id/hscore1"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="95dp" />
+
+    <TextView
+        android:id="@+id/Game_Over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Game Over"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="highscores"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Game_Over" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="names"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Game_Over" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="34dp"
+        android:layout_height="157dp"
+        android:text="1.      2.      3.      4.      5."
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hscore1" />
+
+    <TextView
+        android:id="@+id/hscore2"
+        android:layout_width="148dp"
+        android:layout_height="29dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/hscore1"
+        tools:layout_editor_absoluteX="95dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="196dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="55dp"
+        android:text="Play Again"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="203dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="52dp"
+        android:text="Exit to menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

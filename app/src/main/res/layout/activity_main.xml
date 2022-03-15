@@ -2,36 +2,37 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Name_title"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Start_game"
         android:layout_width="367dp"
         android:layout_height="119dp"
         android:layout_marginTop="60dp"
-        android:text="Start Game"
         android:onClick="buttonClicked"
+        android:text="Start Game"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/Titile" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Options"
         android:layout_width="166dp"
         android:layout_height="118dp"
         android:layout_marginTop="50dp"
-        android:text="Options"
         android:onClick="buttonClick"
+        android:text="Options"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/Start_game" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Titile"
         android:layout_width="409dp"
         android:layout_height="114dp"
         android:layout_marginTop="76dp"
@@ -54,10 +55,10 @@
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/Options" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/Name"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
